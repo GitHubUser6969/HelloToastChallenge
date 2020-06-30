@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="zero"
     tools:context=".MainActivity">
 
     <TextView
@@ -63,8 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
-        android:background="#878787"
-        android:onClick="zero"
+        android:background="@android:color/darker_gray"
         android:text="@string/Zero_Value"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
